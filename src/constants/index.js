@@ -22,6 +22,8 @@ import {
   shopAdmin,
   todo,
   calc,
+  cLang,
+  cppLang,
 } from "../assets";
 
 export const navLinks = [
@@ -59,6 +61,14 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "C",
+    icon: cLang,
+  },
+  {
+    name: "C++",
+    icon: cppLang,
+  },
   {
     name: "HTML 5",
     icon: html,

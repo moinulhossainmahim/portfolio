@@ -42,6 +42,7 @@ import shopUI from './shop-ui.png';
 import shopAdmin from './shop-admin.png';
 import calc from './calculator.png';
 import todo from './todo.png';
+import me from './me.png'
 
 export {
   logo,
@@ -84,4 +85,5 @@ export {
   todo,
   cLang,
   cppLang,
+  me,
 };

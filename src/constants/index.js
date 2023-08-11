@@ -24,7 +24,18 @@ import {
   calc,
   cLang,
   cppLang,
+  me,
 } from "../assets";
+
+export const myWords = [
+  {
+    text: "Here you can download my CV by clicking on Download button. I will be glad to our cooperation.",
+    name: "Moinul Hossain",
+    designation: "Software Developer",
+    // company: "",
+    image: me,
+  },
+]
 
 export const navLinks = [
   {

@@ -7,7 +7,7 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   const [text, count] = useTypewriter({
     words: [
-      "I'm Software Developer",
+      "A Software Developer",
       "Love to solve problems",
       "A CS Student",
     ],

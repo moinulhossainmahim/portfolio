@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  liveDemo,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -61,6 +62,10 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+          <div className="flex justify-between w-full">
+            <a className="p-2 rounded-sm text-slate-500 hover:text-gray-400" href={source_code_link} target="_blank">Source Code</a>
+            <a className="p-2 rounded-sm text-slate-500 hover:text-gray-400" href={liveDemo} target="_blank">Live Demo</a>
+          </div>
         </div>
       </Tilt>
     </motion.div>

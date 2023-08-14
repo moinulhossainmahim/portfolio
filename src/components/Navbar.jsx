@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close, mhLogo2 } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain mt-[-9px]' />
+          <img src={mhLogo2} alt='logo' className='w-9 h-9 object-contain rounded-full' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Moinul Hossain
           </p>

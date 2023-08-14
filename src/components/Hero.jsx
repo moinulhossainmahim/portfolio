@@ -8,7 +8,6 @@ const Hero = () => {
     words: [
       "A Software Developer",
       "Love to solve problems",
-      "A CS Student",
     ],
     loop: true,
     delaySpeed: 1500,

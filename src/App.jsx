@@ -16,7 +16,7 @@ const App = () => {
         <Tech />
         <Works />
         <CV />
-        <div className='relative z-0'>
+        <div className='relative'>
           <Contact />
         </div>
       </div>

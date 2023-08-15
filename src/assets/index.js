@@ -28,6 +28,7 @@ import webApp from './tech/web-dev.jpeg';
 import nextjs from './tech/next.png';
 import cLang from './tech/c-lang.png';
 import cppLang from './tech/cpp-lang.png';
+import nest from './tech/nest.svg';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -78,6 +79,7 @@ export {
   tripguide,
   webApp,
   nextjs,
+  nest,
   tibx,
   githubUser,
   cinehub,

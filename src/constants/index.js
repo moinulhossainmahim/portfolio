@@ -25,6 +25,7 @@ import {
   cLang,
   cppLang,
   me,
+  nest,
 } from "../assets";
 
 export const myWords = [
@@ -112,6 +113,10 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Nest JS",
+    icon: nest,
   },
   {
     name: "MongoDB",

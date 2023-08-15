@@ -27,7 +27,6 @@ const Contact = () => {
   };
 
   const onSubmit = (data) => {
-    console.log(data);
     setLoading(true);
     emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, formRef.current, import.meta.env.VITE_PUBLIC_KEY)
       .then((result) => {
@@ -113,7 +112,7 @@ const Contact = () => {
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-            disabled={!isDirty || !isValid}
+            disabled={!isDirty}
           >
             {loading ? "Sending..." : "Send"}
           </button>

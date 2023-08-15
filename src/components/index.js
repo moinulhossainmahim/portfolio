@@ -8,6 +8,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Footer from './Footer';
+import Resume from './Resume';
 
 export {
   Hero,
@@ -20,4 +22,6 @@ export {
   Contact,
   CanvasLoader,
   BallCanvas,
+  Resume,
+  Footer,
 };

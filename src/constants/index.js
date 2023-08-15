@@ -31,7 +31,7 @@ export const myWords = [
   {
     text: "Here you can download my CV by clicking on Download button. I will be glad to our cooperation.",
     name: "Moinul Hossain",
-    designation: "Software Developer",
+    designation: "Web Application Developer",
     // company: "",
     image: me,
   },
@@ -51,8 +51,8 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    id: "cv",
-    title: "Download CV",
+    id: "resume",
+    title: "Resume",
   },
 
   {

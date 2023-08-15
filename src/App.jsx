@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Hero, Navbar, Tech, Works } from "./components";
 import CV from "./components/CV";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <div className='relative'>
           <Contact />
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

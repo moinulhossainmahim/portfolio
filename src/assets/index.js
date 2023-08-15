@@ -9,6 +9,7 @@ import close from "./close.svg";
 import mhLogo from './mh-logo.png';
 import mhLogo2 from './mh-logo2.png';
 import mhLogo3 from './mh-logo3.png';
+import ProfileImage from './profileImage.jpg';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -91,4 +92,5 @@ export {
   mhLogo,
   mhLogo2,
   mhLogo3,
+  ProfileImage,
 };

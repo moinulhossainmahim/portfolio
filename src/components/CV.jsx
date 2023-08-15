@@ -6,6 +6,7 @@ import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
 import { myWords } from "../constants"
 import CVDoc from "../assets/Resume_of_Moinul_Hossain.pdf";
+import { ProfileImage } from "../assets"
 
 const Card = ({ index, text, name, designation, company, image }) => (
   <div className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full select-none">
@@ -88,9 +89,8 @@ const CV = () => {
           <Card key={myWords.name} index={index} {...myWords} />
         ))}
 
-        <div className="bg-black-200 p-10 rounded-3xl xs:w-[640px] w-full">
+        <div className="bg-black-200 p-10 rounded-3xl xs:w-[640px] w-full flex justify-center items-center">
           <div className="flex min-[850px]:flex-row flex-col justify-around items-center relative">
-            {/* <img src={CVDuncan} alt="CVDuncan" className="w-[250px]" /> */}
             <button
               onClick={openPopup}
               className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-[21px]"
@@ -118,13 +118,13 @@ const CV = () => {
                   ></iframe>
                   <button
                     onClick={downloadResume}
-                    className="mt-4 bg-tertiary text-white px-4 py-2 rounded"
+                    className="mt-4 bg-green-500 text-white px-4 py-2 rounded"
                   >
                     Download Resume
                   </button>
                   <button
                     onClick={closePopup}
-                    className="mt-4 bg-orange-400 text-white px-4 py-2 rounded ml-4 z-100"
+                    className="mt-4 bg-orange-500 text-white px-4 py-2 rounded ml-4 z-100"
                   >
                     Cancel
                   </button>

@@ -3,10 +3,9 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -18,7 +17,7 @@ const ProjectCard = ({
   liveDemo,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div>
       <Tilt
         options={{
           max: 45,
@@ -55,7 +54,7 @@ const ProjectCard = ({
           </div>
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
@@ -69,7 +68,6 @@ const Works = () => {
 
       <div className='w-full flex'>
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           Following projects showcases my skills and experience through

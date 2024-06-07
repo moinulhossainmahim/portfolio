@@ -1,11 +1,11 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 
 import { styles } from "../styles"
 
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
 import { myWords } from "../constants"
-import CVDoc from "../assets/Resume_of_Moinul_Hossain.pdf";
+import CVDoc from "../assets/RESUME_MOINUL_HOSSAIN.pdf";
 
 const Card = ({ index, text, name, designation, company, image }) => (
   <div className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full select-none">
@@ -35,7 +35,7 @@ const Card = ({ index, text, name, designation, company, image }) => (
 )
 
 const Resume = () => {
- /* const [isOpen, setIsOpen] = useState(false);
+ const [isOpen, setIsOpen] = useState(false);
   const [iframeWidth, setIframeWidth] = useState(0);
   const [iframeHeight, setIframeHeight] = useState(0);
 
@@ -45,16 +45,19 @@ const Resume = () => {
 
   const closePopup = () => {
     setIsOpen(false);
-  }; */
+  };
 
   const downloadResume = () => {
     const link = document.createElement('a');
     link.href = CVDoc;
-    link.target='_blank';
+    link.setAttribute('download', 'Resume_of_Moinul_Hossain.pdf');
+    link.style.display = 'none';
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   };
 
-   /*const handleResize = () => {
+  const handleResize = () => {
     setIframeWidth(window.innerWidth * 0.8);
     setIframeHeight(window.innerHeight * 0.7);
   };
@@ -68,8 +71,8 @@ const Resume = () => {
   }, []);
 
   useEffect(() => {
-    handleResize(); // Initialize iframe size on mount
-  }, []); */
+    handleResize();
+  }, []);
 
   return (
     <div className="bg-black-100 rounded-[20px]">
@@ -89,12 +92,12 @@ const Resume = () => {
         <div className="bg-black-200 p-10 rounded-3xl xs:w-[640px] w-full flex justify-center items-center">
           <div className="flex min-[850px]:flex-row flex-col justify-around items-center relative">
             <button
-              onClick={downloadResume}
+              onClick={openPopup}
               className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-[21px]"
             >
               View Resume
             </button>
-            {/* {isOpen && (
+            {isOpen && (
               <div className="fixed inset-0 flex items-center justify-center bg-gray-700 bg-opacity-75 z-10">
                 <div className="bg-white p-4 rounded">
                   <button
@@ -127,7 +130,7 @@ const Resume = () => {
                   </button>
                 </div>
               </div>
-            )} */}
+            )}
           </div>
         </div>
       </div>

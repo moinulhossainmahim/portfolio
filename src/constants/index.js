@@ -26,6 +26,7 @@ import {
   cppLang,
   me,
   nest,
+  sturent
 } from "../assets";
 
 export const myWords = [
@@ -195,9 +196,47 @@ const testimonials = [
 
 const projects = [
   {
+    name: "stuRENT",
+    description:
+      "stuRENT is a room finding website, designed for university students, allows hosts to list single rooms, sublets, and flats, while students can filter and rent these accommodations based on type, gender, and university. stuRENT is fully Responsive.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind-css",
+        color: "text-orange-400",
+      },
+      {
+        name: "google-0Auth",
+        color: "text-orange-400",
+      },
+      {
+        name: "zod",
+        color: "text-orange-400",
+      },
+      {
+        name: "docker",
+        color: "text-orange-400",
+      },
+    ],
+    image: sturent,
+    source_code_link: "https://github.com/moinulhossainmahim/sturent-ui",
+    liveDemo: "https://sturent.vercel.app"
+  },
+  {
     name: "Search Github User",
     description:
-      "'Search Github User' is an innovative web application that empowers users to effortlessly delve into the GitHub coding universe. User can search for GitHub profiles, gaining instant insights into repositories, followers, and programming languages used.",
+      "Search Github User is an innovative web application that empowers users to effortlessly delve into the GitHub coding universe. User can search for GitHub profiles, gaining instant insights into repositories, followers, and programming languages used.",
     tags: [
       {
         name: "react",
@@ -304,7 +343,7 @@ const projects = [
     ],
     image: shopUI,
     source_code_link: "https://github.com/moinulhossainmahim",
-    liveDemo: "https://shop-ui-react.vercel.app/",
+    liveDemo: "https://daily-shop-ui.vercel.app/",
   },
   {
     name: "Shop Admin",

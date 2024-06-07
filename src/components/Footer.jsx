@@ -22,7 +22,7 @@ const Footer = () => {
           <h5 className='mb-4'>Follow me on</h5>
           <ul className='flex gap-5'>
             <li>
-              <a href="https://www.linkedin.com/in/moinulhossainmahim" target='_blank'>
+              <a href="https://www.linkedin.com/in/moinulhmahim" target='_blank'>
                 <AiFillLinkedin size={25} className='rounded-full' />
               </a>
             </li>

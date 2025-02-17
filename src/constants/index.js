@@ -33,7 +33,7 @@ export const myWords = [
   {
     text: "Here you can download my CV by clicking on Download button. I will be glad to our cooperation.",
     name: "Moinul Hossain",
-    designation: "Web Application Developer",
+    designation: "Junior Software Engineer",
     // company: "",
     image: me,
   },
@@ -157,12 +157,11 @@ const experiences = [
       iconBg: "rgb(0 0 0)",
       date: "October 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Work closely with backend developers to ensure seamless integration of front-end and back-end functionalities.",
-        "Experiment with new technologies and tools that could enhance the development workflow and user experience.",
-        "Write clean, efficient, and well-documented code while following coding standards and best practices.",
-        "Participate in continuous integration and deployment (CI/CD) processes to ensure smooth and automated deployment of code changes.",
+        "ITLogiko: Built a landing page for company Utilized React, CSS, SCSS, HTML etc.",
+        "Educational Institution Management System: Working on a web application which is responsible for managing educational institution.",
+        "Frontend Development with React TypeScript – Building dynamic and user-friendly UI components using React and TypeScript, ensuring a seamless and responsive user experience for the educational institution management system.",
+        "Backend Development with Laravel MySQL - Developing robust APIs and handling database operations using Laravel and MySQL, ensuring secure and efficient data management for the platform.",
+        "Integrated APIs into the frontend using React and Redux Toolkit, ensuring a smooth, dynamic, and reliable user experience.",
       ],
     },
 ];

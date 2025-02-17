@@ -14,7 +14,7 @@ import {
   docker,
   webApp,
   nextjs,
-  tibx,
+  itLogiko,
   githubUser,
   usbdit,
   cinehub,
@@ -151,11 +151,11 @@ const technologies = [
 
 const experiences = [
     {
-      title: "Junior Software Engineer(React)",
-      company_name: "TiBX LLC",
-      icon: tibx,
-      iconBg: "#E6DEDD",
-      date: "October 2022 - June 2023",
+      title: "Junior Software Engineer",
+      company_name: "ITLogiko",
+      icon: itLogiko,
+      iconBg: "rgb(0 0 0)",
+      date: "October 2024 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

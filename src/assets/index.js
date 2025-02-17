@@ -26,7 +26,7 @@ import cLang from './tech/c-lang.png';
 import cppLang from './tech/cpp-lang.png';
 import nest from './tech/nest.svg';
 
-import tibx from './company/tibx.jpeg';
+import itLogiko from './company/itlogiko.png';
 
 import githubUser from './github-user.png';
 import cinehub from './cinehub.png';
@@ -62,7 +62,7 @@ export {
   webApp,
   nextjs,
   nest,
-  tibx,
+  itLogiko,
   githubUser,
   cinehub,
   usbdit,

@@ -153,7 +153,7 @@ const technologies = [
 const experiences = [
     {
       title: "Junior Software Engineer",
-      company_name: "ITLogiko",
+      company_name: "ITLogiko - Jessore",
       icon: itLogiko,
       iconBg: "rgb(0 0 0)",
       date: "October 2024 - Present",
@@ -167,7 +167,7 @@ const experiences = [
     },
     {
       title: "Associate Software Engineer",
-      company_name: "TiBX",
+      company_name: "TiBX - Virginia, US",
       icon: tibx,
       iconBg: "rgb(0 0 0)",
       date: "August 2022 - July 2023",

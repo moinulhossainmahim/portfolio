@@ -15,6 +15,7 @@ import {
   webApp,
   nextjs,
   itLogiko,
+  tibx,
   githubUser,
   usbdit,
   cinehub,
@@ -162,6 +163,17 @@ const experiences = [
         "Frontend Development with React TypeScript – Building dynamic and user-friendly UI components using React and TypeScript, ensuring a seamless and responsive user experience for the educational institution management system.",
         "Backend Development with Laravel MySQL - Developing robust APIs and handling database operations using Laravel and MySQL, ensuring secure and efficient data management for the platform.",
         "Integrated APIs into the frontend using React and Redux Toolkit, ensuring a smooth, dynamic, and reliable user experience.",
+      ],
+    },
+    {
+      title: "Associate Software Engineer",
+      company_name: "TiBX",
+      icon: tibx,
+      iconBg: "rgb(0 0 0)",
+      date: "August 2022 - July 2023",
+      points: [
+        "Tirade Call Center: Built a call center web application for performing audio call, video call, conference call, messaging and managing users.",
+        "Ascalon Health: Worked in Ascalon Health web application which is responsible for managing health details of different products of TiBX.Worked closely with backend developers to ensure seamless integration of frontend and backend",
       ],
     },
 ];

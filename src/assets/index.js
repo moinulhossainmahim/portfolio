@@ -27,6 +27,7 @@ import cppLang from './tech/cpp-lang.png';
 import nest from './tech/nest.svg';
 
 import itLogiko from './company/itlogiko.png';
+import tibx from './company/tibx.jpeg';
 
 import githubUser from './github-user.png';
 import cinehub from './cinehub.png';
@@ -74,5 +75,6 @@ export {
   cppLang,
   me,
   mhLogo,
-  sturent
+  sturent,
+  tibx,
 };
